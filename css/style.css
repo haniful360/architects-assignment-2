@@ -49,7 +49,6 @@ img {
 .menu ul li {
     list-style: none;
     margin-left: 30px;
-
 }
 
 .menu ul li a {
@@ -81,7 +80,6 @@ img {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 33px;
-
 }
 
 .explore_btn {
@@ -96,26 +94,23 @@ img {
     line-height: 23px;
     margin-bottom: 50px;
     text-align: center;
-
 }
+/* ==========header section end=========== */
 
-/* =======header section end====== */
 
-/* ========quick feature section start======== */
+/* ======quick feature section start====== */
 .quick_feature {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 73px;
     justify-content: center;
     align-items: center;
-
 }
 
 .quick_feature_img_part {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
-
 }
 
 .quick_feature_img_part img {
@@ -124,7 +119,7 @@ img {
 }
 
 .quick_feature_title {
-
+    color: #131313;
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
@@ -147,11 +142,10 @@ img {
     line-height: 26px;
     margin-bottom: 32px;
 }
-
 /* =========quick feature section end========== */
 
 
-/*==== quick features love section start ====*/
+/*======quick features love section start=======*/
 .features_love {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -182,7 +176,6 @@ img {
     border-radius: 8px;
     margin-bottom: 20px;
     padding: 30px 42px 30px 30px;
-
 }
 
 .features_option h3 {
@@ -231,7 +224,6 @@ img {
     font-weight: 700;
     font-size: 54px;
     line-height: 70px;
-
 }
 
 .experience p {
@@ -240,11 +232,10 @@ img {
     font-size: 25px;
     line-height: 40px;
 }
-
 /*==== quick features love section end ====*/
 
 
-/*===== some facts section start =====*/
+/*========some facts section start ========*/
 .some_facts_title {
     color: #131313;
     font-style: normal;
@@ -279,13 +270,11 @@ img {
     border-radius: 8px;
     margin-top: 100px;
     transition: all .7s ease;
-
 }
 
 .some_facts_card:hover {
     transform: rotate(45deg);
     background: #ff8f0ec1;
-    /* color: #FFFFFF; */
 }
 
 .some_facts_card img {
@@ -293,7 +282,6 @@ img {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
-
 }
 
 .some_facts_card h2 {
@@ -312,7 +300,6 @@ img {
     font-size: 20px;
     line-height: 23px;
 }
-
 /*====== some facts section end ======*/
 
 
@@ -342,7 +329,6 @@ img {
     grid-template-columns: repeat(5, 1fr);
     grid-column-gap: 100px;
 }
-
 /*======sponsors section end ======== */
 
 
@@ -356,8 +342,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
-
 }
 
 .footer p {
@@ -367,5 +351,31 @@ img {
     font-size: 20px;
     line-height: 23px;
 }
-
 /* =======footer section end========= */
+
+@media only screen and (max-width: 688px) {
+    /* top header */
+    .menu ul{
+        flex-direction: column;
+    }
+    .banner_title{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .banner_des{
+        padding: 0 10px;
+    }
+    /* quick_feature */
+    .quick_feature{
+        grid-template-columns: 1fr;
+    }
+    .quick_feature_img_part{
+        grid-template-columns: 1fr;
+        margin: 0 auto;
+    }
+    .quick_feature_article{
+        text-align: center;
+        padding: 0 10px;
+    }
+
+}
