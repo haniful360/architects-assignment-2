@@ -127,10 +127,11 @@ img {
     margin-bottom: 24px;
 }
 
-.dark_color{
-    color:#13131385;
+.dark_color {
+    color: #13131385;
     font-weight: 500;
 }
+
 .quick_color {
     color: #FF900E;
 }
@@ -141,4 +142,97 @@ img {
     line-height: 26px;
     margin-bottom: 32px;
 }
+
 /* =========quick feature section end========== */
+
+
+/*==== quick features love section start ====*/
+.features_love {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 154px;
+}
+
+.features_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+}
+
+.features_des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.features_option {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 30px 42px 30px 30px;
+
+}
+
+.features_option h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.features_option p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.architect_part{
+    position: relative;
+}
+.architect_part img{
+    height: 950px;
+}
+.experience {
+    color: #fff;
+    background: #FF900E;
+    width: 342px;
+    height: 200px;
+    padding: 45px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    position: absolute;
+    top:830px;
+    left: -100px;
+}
+
+.experience h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 70px;
+    
+}
+
+.experience p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/*==== quick features love section end ====*/
+
+
+/*===== some facts section start =====*/
+
+/*====== some facts section end ======*/
