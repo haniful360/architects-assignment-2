@@ -365,6 +365,7 @@ img {
     .banner_des{
         padding: 0 10px;
     }
+
     /* quick_feature */
     .quick_feature{
         grid-template-columns: 1fr;
@@ -377,5 +378,24 @@ img {
         text-align: center;
         padding: 0 10px;
     }
+
+    /*=== Features love=== */
+    .features_love{
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 0 10px;
+    }
+    .experience {
+        width: 242px;
+        top: 470px;
+        left: 0px;
+    }
+    .architect_part img{
+        height: 600px;
+    }
+
+    /* ===some facts section=== */
+
+
 
 }
