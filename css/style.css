@@ -359,6 +359,15 @@ img {
 
 @media only screen and (max-width: 688px) {
     /* top header */
+    .top_header{
+        padding: 30px 10px 0;
+    }
+    .top_header .logo{
+        font-size: 30px;
+    }
+    .top_header a{
+        font-size: 20px;
+    }
     .menu ul{
         flex-direction: column;
     }
@@ -369,7 +378,9 @@ img {
     .banner_des{
         padding: 0 10px;
     }
-
+    .banner_part{
+        margin-top: 50px;
+    }
     /* quick_feature */
     .quick_feature{
         grid-template-columns: 1fr;
@@ -412,13 +423,10 @@ img {
     .some_facts_card{
         margin-top: 0;
     }
-    .some_facts_des{
-        width: 300;
-    }
 
     /* ====sponspors section ====*/
     .sponspors_article{
-        padding: 10px;
+        padding:0 10px;
     }
     .sponspors{
         grid-template-columns: 1fr;
