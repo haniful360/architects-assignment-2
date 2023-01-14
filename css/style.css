@@ -193,12 +193,14 @@ img {
     line-height: 26px;
 }
 
-.architect_part{
+.architect_part {
     position: relative;
 }
-.architect_part img{
+
+.architect_part img {
     height: 950px;
 }
+
 .experience {
     color: #fff;
     background: #FF900E;
@@ -211,7 +213,7 @@ img {
     flex-direction: column;
     border-radius: 8px;
     position: absolute;
-    top:830px;
+    top: 830px;
     left: -100px;
 }
 
@@ -220,7 +222,7 @@ img {
     font-weight: 700;
     font-size: 54px;
     line-height: 70px;
-    
+
 }
 
 .experience p {
@@ -234,5 +236,98 @@ img {
 
 
 /*===== some facts section start =====*/
+.some_facts_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.some_facts_des {
+    width: 542px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.some_facts_section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 124px;
+    text-align: center;
+}
+
+.some_facts_card {
+    border: 1px solid #FF900E;
+    height: 241px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 100px;
+    transition: all .7s ease;
+
+}
+
+.some_facts_card:hover {
+    transform: rotate(45deg);
+    background: #ff8f0ec1;
+    /* color: #FFFFFF; */
+}
+
+.some_facts_card img {
+    width: 45px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+
+}
+
+.some_facts_card h2 {
+    color: #424242;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 5px;
+}
+
+.some_facts_card p {
+    color: #727272;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
 
 /*====== some facts section end ======*/
+
+
+/*======sponsors section start======= */
+.sponspors_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.sponspors_des {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponspors{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-column-gap: 100px;
+}
+
+/*======sponsors section end ======== */
