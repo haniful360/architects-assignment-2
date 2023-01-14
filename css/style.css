@@ -24,8 +24,7 @@ img {
 
 .container {
     max-width: 1280px;
-    margin: 0 auto;
-
+    margin: 0 auto 100px;
 }
 
 .top_header {
@@ -85,7 +84,7 @@ img {
 .explore_btn {
     color: #fff;
     width: 180px;
-    height: 64px;
+    padding: 25px 0;
     display: inline-block;
     background: #FF900E;
     border-radius: 8px;
@@ -93,6 +92,53 @@ img {
     font-size: 20px;
     line-height: 23px;
     margin-bottom: 50px;
+    text-align: center;
+
 }
 
 /* =======header section end====== */
+
+/* ========quick feature section start======== */
+.quick_feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 73px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quick_feature_img_part {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+
+}
+
+.quick_feature_img_part img {
+    width: 342px;
+    height: 342px;
+}
+
+.quick_feature_title {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.dark_color{
+    color:#13131385;
+    font-weight: 500;
+}
+.quick_color {
+    color: #FF900E;
+}
+
+.quick_feature_des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+/* =========quick feature section end========== */
