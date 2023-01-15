@@ -144,6 +144,9 @@
         gap: 24px;
         padding: 0 20px;
     }
+    .some_facts_card{
+        width: 100%;
+    }
     .some_facts_card:nth-child(3){
         margin-top: 0;
     }
@@ -153,7 +156,6 @@
     .some_facts_article{
         text-align: center;
         padding-bottom: 30px;
-        margin-top: 150px;
     }
 
     /* ===services section=== */
