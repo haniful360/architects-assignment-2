@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* overflow-x: auto; */
+    
 }
 
 body {
@@ -344,7 +344,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .footer p {
@@ -357,7 +356,10 @@ img {
 }
 /* =======footer section end========= */
 
-@media only screen and (max-width: 688px) {
+
+/* ============Media Query============*/
+/* =====mobile device====== */
+@media only screen and (max-width: 580px) {
     /* top header */
     .top_header{
         padding: 30px 10px 0;
@@ -441,4 +443,75 @@ img {
     .footer p{
         text-align: center;
     }
+}
+
+
+/* =====tablet device===== */
+@media only screen and (min-width: 581px) and (max-width:920px){
+   
+    .header_container{
+        padding: 0 20px;
+    }
+    /* Quick feature */
+    .quick_feature{
+        grid-template-columns:  1fr;
+    }
+    .quick_feature_img_part{
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+
+    .quick_feature_img_part img {
+        width: 380px;
+        height: 342px;
+    }
+
+    .quick_feature_article{
+        text-align: center;
+    }
+
+    /* ===features love section=== */
+    .features_love{
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+        gap: 50px;
+    }
+    .features_options{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+
+    .experience {
+        width: 300px;
+        top: 820px;
+        left: 0px;
+    }
+
+    /* some facts section */
+    .some_facts_section {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        padding: 0 20px;
+    }
+    .some_facts_card:nth-child(3){
+        margin-top: 0;
+    }
+    .some_facts_card:nth-child(4){
+        margin-top: 0;
+    }
+    .some_facts_article{
+        text-align: center;
+        padding-bottom: 30px;
+        margin-top: 150px;
+    }
+
+
+    /* sponspors section */
+    .sponspors{
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 50px;
+        padding: 0 20px;
+    }
+
 }
